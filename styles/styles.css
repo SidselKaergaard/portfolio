@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* Main portfolio styles */
+
+@import url('https://fonts.googleapis.com/css?family=Krub');
+body{
+	font-family: 'Krub', sans-serif;
+}
