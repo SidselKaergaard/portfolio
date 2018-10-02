@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* style - Kontakt */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 1px;
+	}
+
+*{
+	margin: 0;
+	padding:0;
+	border:none;
+}
+
+
+/*Style - Navigation*/
+.container{
+	display: flex;
+	width: 60%;
+	justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:20px;
+}
+
+.logo{
+	align-items: left;
+}
+
+nav{
+	display:block;
+	height: 60px;
+	align-items: center;
+	width: 100%;
+	float: right;
+}
+
+
+nav a{
+	width: 10%;
+	background-color: none;
+	text-align: right;
+	text-decoration: none;
+	font-size: 30px;
+	color:#FF9E02;
+	padding:10px;
+	float: right;
+	margin-top:98px;
+}
+
+nav a:hover{
+	color:gray;
+	}
+a:active{
+	color:#484848;
+	}
+
+
+.clearfix{
+		clear: right;
+	}
+
+
+/*style - kontakt*/
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+form{ 
+		    width: 650px;
+			margin-left: 490px;
+	        margin-top: 20px; 
+			padding: 20px;
+	        background-color: #D2D2D2;
+	        border-radius: 6px;
+		}
+		
+input[type=text], select, textarea {
+    width: 90%; 
+    padding: 14px;   
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 16px;
+    resize: vertical 
+}
+		
+input[type=email],select, textarea{
+	width: 90%; 
+    padding: 14px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #FF9E02;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover {
+    background-color:#6B6B6B;
+}
+
+
+/*STyle - bundknap*/
+
+.tilbage {
+	color: white;
+	font-size: 20px;
+	background-color: #FF9E02;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin-top: 170px;
+	margin-left: 770px;
+	width: 80px;
+	padding: 15px 25px;
+	border-radius: 4px;
+	transition: .2s ease;
+}
+
+.tilbage:hover {
+	background-color: #6B6B6B; 
+}
+
+
+
+
+
+
+/*Style - footer*/
+
+footer {
+	position: absolute;
+	bottom: 5px;
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+}
+
+.copy{
+	display: block;
+	margin-right: 730px;
+	margin-top: 40px;
+	
+}
+
+.social{
+	display: block;
+	align-items: flex-end;
+	float: right;
+}
+.mail{
+	margin-right: 315px;
+}
+
+.insta{
+	margin-right: 5px;
+}
+
+.facebook{
+	margin-right: 5px;
+}
+
+
+
