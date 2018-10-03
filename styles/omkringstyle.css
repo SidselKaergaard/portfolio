@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* Omkring stylesheet */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+	/*Style - Container*/
+.container{
+	display:flex;
+	width: 1250px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    margin-left: auto;
+	margin-right: auto;
+			
+		}
+		
+
+		/*Style - Body*/
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 1px;
+	}
+
+ .item{
+	
+	margin-top:10px;
+	text-align: center;
+	padding-top:8px;
+		}
+
+
+		/*Style - Logo*/
+.logo{
+	height: 100px;
+	width: 19%;
+		}
+		
+
+
+		/*Style - Navigationen*/
+.nav{
+	width: 65%;
+	font-size: 40px;
+	margin-top:30px;
+	margin-right: 20px;
+         }
+        
+.nav a{
+	color: #FF9E02;
+	margin-top:70px;
+	text-decoration: none;
+	padding:10px;
+	float: right;
+         }
+         
+		
+nav a:hover{
+	 color:gray;
+	    }
+
+a:active{
+	color:#484848;
+	   }
+		
+
+		/*Style - footer*/
+
+footer{
+	width:99%;
+	height: 60px;
+			
+	}
+		
+.copy{
+	font-weight: lighter;
+    font-size: 20px;
+    }
+
+
+		
+		/*Style - Artike */
+
+article{
+	width:30%;
+	height: 700px;
+		}
+
+.mig{
+	box-shadow: 1px 5px 5px #666;
+	margin-top: 55px;
+	margin-right: 85px;
+}
+
+		
+		/*Style - Reklame */
+
+.reklame{
+width: 40%; 
+		}
+h1{
+	font-size: 50px;
+	margin-right: 5px;
+	
+}
+
+.beskrivelse{
+	text-align: left;
+	font-size: 25px;
+	letter-spacing: 1px;
+	margin-left: 35px;
+	margin-top: 20px;
+	
+}
+
+
+.social{
+	margin-left: 5px;
+	margin-right: 5px;
+}
