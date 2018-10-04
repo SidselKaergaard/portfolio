@@ -63,18 +63,6 @@ a:active{
 	   }
 		
 
-		/*Style - footer*/
-footer{
-	width:99%;
-	height: 60px;
-			
-	}
-		
-.copy{
-	font-weight: lighter;
-    font-size: 20px;
-    }
-
 
 h1{
 	font-size: 50px;
@@ -126,10 +114,26 @@ input[type=submit]:hover {
 }
 
 
+/*Footer*/
+
+footer{
+	width:99%;
+	height: 60px;
+			
+	}
+.tilbage{
+	display: block;
+	margin-bottom: 20px;
+}
 .social{
 	margin-left: 5px;
 	margin-right: 5px;
 }
+		
+.copy{
+	font-weight: lighter;
+    font-size: 20px;
+    }
 
 		
 

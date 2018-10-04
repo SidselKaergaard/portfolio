@@ -63,17 +63,6 @@ a:active{
 	   }
 		
 
-		/*Style - footer*/
-footer{
-	width:99%;
-	height: 60px;
-			
-	}
-		
-.copy{
-	font-weight: lighter;
-    font-size: 20px;
-    }
 
 
 
@@ -101,6 +90,11 @@ h1{
 	font-size: 50px;
 }
 
+.ps{
+	margin-top: 20px;
+}
+
+
 .beskrivelse{
 	text-align: left;
 	font-size: 25px;
@@ -108,8 +102,25 @@ h1{
 	margin-right: 30px;
 }
 
+
+
+
+		/*Style - footer*/
+footer{
+	width:99%;
+	height: 60px;
+			
+	}
+.tilbage{
+	display: block;
+	margin-bottom: 20px;
+}
 .social{
 	margin-left: 5px;
 	margin-right: 5px;
 }
-
+		
+.copy{
+	font-weight: lighter;
+    font-size: 20px;
+    }

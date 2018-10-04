@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Omkring stylesheet */
+/* Projekt stykesheet*/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
@@ -21,10 +21,12 @@ body{
 	letter-spacing: 1px;
 	}
 
- .item{
-	margin-top:10px;
-	text-align: center;
-	padding-top:8px;
+
+		/*fætlles styling af elle class=item*/
+	   .item{
+			margin-top:10px;/*giver luft mellem elementeren i toppen*/
+			text-align: center;/*for at få teksten stillet centralt*/
+			padding-top:8px;
 		}
 
 
@@ -62,46 +64,43 @@ a:active{
 	   }
 		
 
-		
 
 
-		
-		/*Style - Artike */
+
 
 article{
-	width:30%;
-	height: 700px;
-		}
+	width: 80%;
+}
 
-.mig{
+.img{
+	margin-right: 40px;
 	box-shadow: 1px 5px 5px #666;
-	margin-top: 55px;
-	margin-right: 85px;
 }
 
-		
-		/*Style - Reklame */
-
-.reklame{
-width: 40%; 
-		}
 h1{
-	font-size: 50px;
-	margin-right: 5px;
-	
+	font-size: 60px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color:#484848;
+	}
+h1:hover{
+	color: #FF9E02;
 }
 
-.beskrivelse{
-	text-align: left;
-	font-size: 25px;
-	letter-spacing: 1px;
-	margin-left: 35px;
-	margin-top: 20px;
-	
+a{
+	text-decoration: none;
+}
+
+.find{
+	margin-top: 30px;
 }
 
 
-/*Style - footer*/
+
+
+
+
+/*Footer*/
 
 footer{
 	width:99%;
@@ -121,3 +120,7 @@ footer{
 	font-weight: lighter;
     font-size: 20px;
     }
+
+		
+
+		

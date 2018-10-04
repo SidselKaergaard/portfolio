@@ -22,6 +22,7 @@ body{
 	}
 
  .item{
+	 
 	margin-top:10px;
 	text-align: center;
 	padding-top:8px;
@@ -62,26 +63,13 @@ a:active{
 	   }
 		
 
-		/*Style - footer*/
-
-footer{
-	width:99%;
-	height: 60px;
-			
-	}
 		
-.copy{
-	font-weight: lighter;
-    font-size: 20px;
-    }
-
-
-		
+	
 		/*Style - Artike */
 
 article{
 	width:90%;
-	height: 1250px;
+	height: 2400px;
 		}
 .beskrivelse{
 	text-align: center;
@@ -108,8 +96,8 @@ h1{
 }
 
 .column {
-    flex: 25%;
-    max-width: 35%;
+    flex: 50%;
+    max-width: 50%;
     padding: 0 4px;
 }
 
@@ -137,15 +125,34 @@ h1{
 
 .imgaes{
 	box-shadow: 1px 5px 5px #666;/*Skygge*/
+	filter: grayscale(100%);	
+	
+}
+
+img:hover{
+	filter: grayscale(0%);
+	
 }
 
 
+/*Style - footer*/
 
+footer{
+	width:99%;
+	height: 60px;
+			
+	}
+.tilbage{
+	display: block;
+	margin-bottom: 20px;
+}
 .social{
 	margin-left: 5px;
 	margin-right: 5px;
 }
-
-
-
+		
+.copy{
+	font-weight: lighter;
+    font-size: 20px;
+    }
 
